@@ -1,0 +1,193 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header nav ul{
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+  list-style: none;
+}
+.loginBtn{
+  padding: 13px 24px;
+  border-radius: 100px;
+  border: 1px solid black;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: black;
+}
+.contactExpBtn {
+  padding: 12px 24px;
+  border-radius: 100px;
+  background-color: black;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: white;
+  border: none;
+}
+header nav ul li{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 16px;
+  color: black;
+}
+header{
+  padding-top: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerBtns{
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+}
+
+.heroLeft h1{
+  font-weight: 700;
+    font-size: 77px;
+    line-height: 82px;
+    color: black;
+}
+.heroLeft h5 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: black;
+}
+.heroBottom h6{
+  font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: black;
+}
+.heroBottom button{
+  padding: 18px 30px;
+    border-radius: 100px;
+    background-color: black;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+    color: white;
+    border: none;
+}
+.heroBottom{
+  margin-top: 52px;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  align-items: start;
+}
+.heroLeft{
+    display: flex;
+    padding-top: 27px;
+      flex-direction: column;
+      gap: 27px;
+      align-items: start;
+}
+.heroPg{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 31px;
+  align-items: start;
+  padding-bottom: 74px;
+}
+.bestLeft h2{
+  font-weight: 400;
+    font-size: 57px;
+    line-height: 57px;
+    color: black;
+}
+.bestLeft h6 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: black;
+}
+.bestLeft{
+    display: flex;
+      flex-direction: column;
+      gap: 33px;
+}
+.bestStackPg{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 51px;
+  padding-bottom: 126px;
+  margin-top: 54px;
+
+}
+.WhySwitchPg h2{
+  font-weight: 700;
+    font-size: 58px;
+    line-height: 57px;
+    color: black;
+}
+.whySwitchBox h6 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 24px;
+  color: black;
+}
+.span{
+ text-decoration: underline;
+ color: rgba(145,215,250,1);
+ cursor: pointer;
+}
+.whySwitchBox p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: black;
+}
+.whySwitchBox{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+.whySwitchBox img{
+margin-bottom: 14px;
+}
+.whySwitchBoxes{
+  margin-top: 30px;
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+.WhySwitchPg{
+      display: flex;
+        flex-direction: column;
+        gap: 53px;
+      padding-bottom: 126px;
+       padding-top: 44px;
+}
+.whySwitchBoxBtn button{
+    padding: 12px 30px;
+      border-radius: 100px;
+      background-color: #F7B2B7;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 25px;
+      color: black;
+      border: none;
+}
+.whySwitchBoxBtn{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+.plansBuilt{
+  background-color: #FDECED;
+}
