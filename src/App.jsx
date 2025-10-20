@@ -3,6 +3,7 @@ import Hero from './components/Hero.jsx';
 import BestStack from './components/BestStack.jsx';
 import WhySwitch from './components/WhySwitch.jsx';
 import PlansBuilt from './components/PlansBuilt.jsx';
+import AmazingComp from './components/AmazingComp.jsx';
 import './App.css';
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
    <BestStack/>
    <WhySwitch/>
    <PlansBuilt/>
+   <AmazingComp/>
 </div>
   )
 }
