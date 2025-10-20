@@ -6,6 +6,7 @@ import PlansBuilt from './components/PlansBuilt.jsx';
 import AmazingComp from './components/AmazingComp.jsx';
 import Hub from './components/Hub.jsx';
 import ReadySwitch from './components/ReadySwitch.jsx';
+import Footer from './components/footer.jsx';
 import './App.css';
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
    <AmazingComp/>
    <Hub/>
    <ReadySwitch/>
+   <Footer/>
 </div>
   )
 }
